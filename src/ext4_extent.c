@@ -662,7 +662,7 @@ static int ext4_ext_split_node(struct ext4_inode_ref *inode_ref,
 			struct ext4_extent_index *ix;
 			ix = EXT_FIRST_INDEX(neh);
 			memmove(ix, path[at].index + 1,
-				sizeof(struct ext4_extent) * m);
+				sizeof(struct ext4_extent_index) * m);
 			neh->entries_count =
 			    to_le16(to_le16(neh->entries_count) + m);
 			path[at].header->entries_count = to_le16(

@@ -46,7 +46,6 @@
 #include "ext4_journal.h"
 #include "ext4_blockdev.h"
 #include "ext4_crc32.h"
-#include "ext4_journal.h"
 
 #include <string.h>
 #include <stdlib.h>

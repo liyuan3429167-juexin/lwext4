@@ -34,8 +34,8 @@
  * @brief Transaction handle functions
  */
 
-#ifndef EXT4_TRANS_H
-#define EXT4_TRANS_H
+#ifndef EXT4_TRANS_H_
+#define EXT4_TRANS_H_
 
 #ifdef __cplusplus
 extern "C" {
@@ -83,7 +83,7 @@ int ext4_trans_try_revoke_block(struct ext4_blockdev *bdev,
 }
 #endif
 
-#endif /* EXT4_TRANS_H */
+#endif /* EXT4_TRANS_H_ */
 
 /**
  * @}
